@@ -41,6 +41,15 @@ make serve
 You can access your local website on http://localhost:1313
 
 ## Translations
+### Hindi
+There is currently scaffolding in place for a Hindi translation of the site.
+
+To translate docs into Hindi, create Hindi-language Markdown files in the `content/zh/docs` directory.
+
+To translate other parts of the site:
+
+1. See the `languages.zh` block in the site's [`config.yaml`](./config.yaml) configuration file and translate those items from the current English.
+1. See [`i18n/zh.yaml`](./i18n/zh.yaml) for a handful of language snippets that need to be translated from the current English. Translate the `other` block of each term.
 
 ### Chinese
 
